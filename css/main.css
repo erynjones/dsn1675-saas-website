@@ -14,3 +14,11 @@ html {
   font-family: 'Open Sans', sans-serif;
   font: normal 100%/1.5;
 }
+
+.banner {
+  background-image: url("../images/logo.svg");
+  background-size: 50px auto;
+  background-repeat: no-repeat;
+  background-position: calc(8%) 1.5em 2em;
+
+}
