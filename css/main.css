@@ -15,10 +15,25 @@ html {
   font: normal 100%/1.5;
 }
 
-.banner {
-  background-image: url("../images/logo.svg");
-  background-size: 50px auto;
-  background-repeat: no-repeat;
-  background-position: calc(8%) 1.5em 2em;
+body {
+  margin: 0;
+}
 
+nav a{
+  text-decoration: none;
+  color: #C1C0C0;
+}
+
+.banner {
+  padding: calc(4em + 40vw) 0 0;
+  background: url("../images/banner.jpg") center center / cover no-repeat;
+  clear: both;
+}
+
+.orange {
+  color: #EFA853;
+}
+
+.black {
+  background-color: #242424;
 }
