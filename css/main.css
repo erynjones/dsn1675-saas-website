@@ -30,6 +30,12 @@ nav a{
   clear: both;
 }
 
+.banner-tour {
+  padding: calc(2em + 20vw) 0 0;
+  background: url("../images/tour-banner.jpg") center center / cover no-repeat;
+  clear: both;
+}
+
 .orange {
   color: #EFA853;
 }
