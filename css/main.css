@@ -27,13 +27,21 @@ nav a{
 .banner {
   padding: calc(4em + 40vw) 0 0;
   background: url("../images/banner.jpg") center center / cover no-repeat;
-  clear: both;
 }
 
 .banner-tour {
-  padding: calc(2em + 20vw) 0 0;
+  padding: calc(3em + 30vw) 0 0;
   background: url("../images/tour-banner.jpg") center center / cover no-repeat;
-  clear: both;
+}
+
+.banner-pricing {
+  padding: calc(3em + 30vw) 0 0;
+  background: url("../images/pricing-banner.jpg") center center / cover no-repeat;
+}
+
+.banner-sign-up {
+  padding: calc(2em + 20vw) 0 0;
+  background: url("../images/sign-up-banner.jpg") center center / cover no-repeat;
 }
 
 .orange {
