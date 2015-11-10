@@ -73,3 +73,7 @@ button {
   color: #EFA853;
   cursor: pointer;
 }
+
+.icon {
+  width: 20%;
+}
