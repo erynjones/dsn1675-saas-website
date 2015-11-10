@@ -51,3 +51,24 @@ nav a{
 .black {
   background-color: #242424;
 }
+
+label {
+  display: block;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+input,
+  width: 15em;
+  font-size: 1.25 rem;
+}
+
+button {
+  font-size: 1.25 rem;
+  padding: 1em;
+  background-color: #737373;
+  color: #EFA853;
+  cursor: pointer;
+}
