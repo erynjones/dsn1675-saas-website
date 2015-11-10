@@ -74,6 +74,15 @@ button {
   cursor: pointer;
 }
 
+.button {
+  padding: 0.25em 0.5em;
+  width: 24%;
+  background-color: #737373;
+  color: #EFA853;
+  cursor: pointer;
+  text-align: center;
+}
+
 .icon {
   width: 20%;
 }
