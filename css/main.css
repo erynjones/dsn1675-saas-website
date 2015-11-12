@@ -75,12 +75,11 @@ button {
 }
 
 .button {
-  display: block;
   padding: 0.25em 0.5em;
-  width: 24%;
   background-color: #737373;
   color: #EFA853;
   cursor: pointer;
+  position: relative;
   text-align: center;
 }
 
@@ -90,4 +89,40 @@ button {
 
 h3 {
   margin: 0;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .extra {
+    padding-left: 1em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+  .extra {
+    padding-left: 0;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
