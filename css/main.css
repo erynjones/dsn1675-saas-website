@@ -97,6 +97,11 @@ h3 {
   .extra {
     padding-left: 1em;
   }
+
+  .space {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
