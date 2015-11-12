@@ -75,6 +75,7 @@ button {
 }
 
 .button {
+  display: block;
   padding: 0.25em 0.5em;
   width: 24%;
   background-color: #737373;
