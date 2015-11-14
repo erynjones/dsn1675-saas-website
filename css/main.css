@@ -79,7 +79,15 @@ button {
   background-color: #737373;
   color: #EFA853;
   cursor: pointer;
-  position: relative;
+  text-align: center;
+}
+
+.button-1 {
+  width: 25%;
+  padding: 0.25em 0.5em;
+  background-color: #737373;
+  color: #EFA853;
+  cursor: pointer;
   text-align: center;
 }
 
