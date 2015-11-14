@@ -80,6 +80,7 @@ button {
   color: #EFA853;
   cursor: pointer;
   text-align: center;
+  text-decoration: none;
 }
 
 .button-1 {
@@ -89,6 +90,7 @@ button {
   color: #EFA853;
   cursor: pointer;
   text-align: center;
+  text-decoration: none;
 }
 
 .icon {
@@ -97,6 +99,10 @@ button {
 
 h3 {
   margin: 0;
+}
+
+footer {
+  margin-top: 1em;
 }
 
 
