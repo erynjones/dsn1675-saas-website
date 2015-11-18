@@ -23,7 +23,7 @@ p {
   font-family: 'Droid Serif', serif;
 }
 
-h1, h2, h3, {
+h1, h2, h3, ul, copyright, a {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -107,6 +107,12 @@ button {
   width: 20%;
 }
 
+.icon-2 {
+  width: 20%;
+  float: right;
+  clear: left;
+}
+
 h3 {
   margin: 0;
 }
@@ -126,6 +132,10 @@ footer {
     padding-left: 1em;
     padding-right: 1em;
   }
+
+  .icon-2{
+    width: 13%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -138,12 +148,20 @@ footer {
     padding-left: 0;
   }
 
+  .icon-2{
+    width: 8%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 120%;
+  }
+
+  .icon-2{
+    width: 6%;
   }
 
 }
@@ -153,5 +171,10 @@ footer {
   html {
     font-size: 130%;
   }
+
+  .icon-2{
+    width: 5%;
+  }
+
 
 }
