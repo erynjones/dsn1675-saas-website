@@ -113,12 +113,14 @@ button {
   clear: left;
 }
 
+
 h3 {
   margin: 0;
 }
 
 footer {
   margin-top: 1em;
+  height: 77px;
 }
 
 
