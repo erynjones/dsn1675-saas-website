@@ -14,11 +14,16 @@
 </head>
 <body>
 
-<header class="grid grid-middle gutter-1-2 orange black">
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#nav">Jump to main navigation</a></li>
+</ul>
+
+<header id="top" class="grid grid-middle gutter-1-2 orange black" role="banner">
   <div class="unit xs-1 s-1 m-1-2 l-1-3">
-    <a href="index.html"><img class="pad-t-1-2 push-1-2 icon" src="images/logo.svg" alt="icon of On The Run"></a>
+    <a href="index.html"><img class="pad-t-1-2 push-1-2 icon" src="images/logo.svg" alt="On The Run"></a>
   </div>
-    <nav class="unit">
+    <nav class="unit xs-1 s-1 m-1-2 l-1-3" role="navigation" id="nav">
       <ul class="mega pad-t-1-2 push-1-2 list-group list-group--inline">
         <li><a href="tour.html">Tour</a></li>
         <li><a href="pricing.html">Pricing</a></li>
@@ -27,7 +32,7 @@
     </nav>
 </header>
 
-<main>
+<main role="main" id="main">
 
 <div class="banner-tour text-center orange">
   <h1 class="yotta push-1-2">All the Features you Could Need</h1>
@@ -39,7 +44,7 @@
 <div class="grid gutter">
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
     <div class="embed embed--1by1">
-      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/notification-icon.svg" alt="icon of notifcations">
+      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/notification-icon.svg" alt="">
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
@@ -49,7 +54,7 @@
 
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
     <div class="embed embed--1by1">
-      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/storage-icon.svg" alt="icon of online storage">
+      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/storage-icon.svg" alt="">
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
@@ -59,7 +64,7 @@
 
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
     <div class="embed embed--1by1">
-      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/data-icon.svg" alt="icon of data transfer">
+      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/data-icon.svg" alt="">
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
@@ -69,7 +74,7 @@
 
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
     <div class="embed embed--1by1">
-      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/media-icon.svg" alt="icon of media formats">
+      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/media-icon.svg" alt="">
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
@@ -79,7 +84,7 @@
 
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
     <div class="embed embed--1by1">
-      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/sharing-icon.svg" alt="icon of group sharing">
+      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/sharing-icon.svg" alt="">
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
@@ -89,7 +94,7 @@
 
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
     <div class="embed embed--1by1">
-      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/boards-icon.svg" alt="icon of project boards">
+      <img class="embed__item pad-t-2 pad-b-2 push-r" src="images/boards-icon.svg" alt="">
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-4">
@@ -101,7 +106,7 @@
 
 </main>
 
-<footer class="orange black gutter">
+<footer class="orange black gutter" role="conentinfo">
   <copyright class="pad-b-1-4">©2015 Company X. All Rights Reserved Privacy Policy • Terms of Use</copyright>
   <h3 class="tera text-right pad-b-1-2">On The Run</h3>
 </footer>
