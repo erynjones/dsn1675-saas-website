@@ -19,6 +19,10 @@ body {
   margin: 0;
 }
 
+a:focus {
+  outline: 3px solid #EFA853;
+}
+
 p {
   font-family: 'Droid Serif', serif;
 }
