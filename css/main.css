@@ -58,6 +58,11 @@ nav a{
   background: url("../images/sign-up-banner.jpg") center center / cover no-repeat;
 }
 
+.banner-thank {
+  padding: calc(2em + 20vw) 0 0;
+  background: url("../images/thank-you-banner.jpg") center center / cover no-repeat;
+}
+
 .orange {
   color: #EFA853;
 }
