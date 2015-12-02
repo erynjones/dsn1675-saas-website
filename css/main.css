@@ -74,9 +74,13 @@ form div {
   margin-bottom: 1rem;
 }
 
+input {
+  width: 100%;
+  border: 2px soild #242424;
+}
+
 input,
 select{
-  width: 15em;
   font-size: 1.25 rem;
 }
 
