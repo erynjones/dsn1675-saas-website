@@ -82,7 +82,7 @@ select{
 
 button {
   font-size: 1.25rem;
-  padding: 1em;
+  padding: 0.5em 0.75em;
   background-color: #737373;
   color: #EFA853;
   cursor: pointer;
@@ -126,6 +126,7 @@ footer {
   margin-top: 1em;
   height: 95px;
 }
+
 
 @media only screen and (min-width: 25em) {
 
